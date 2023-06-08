@@ -1,0 +1,30 @@
+.search-form {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(73, 138, 73);
+  }
+  
+  .gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .photo-card {
+    flex-basis: calc((100% - 10px * 3) / 4);
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+  }
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
